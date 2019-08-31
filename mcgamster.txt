@@ -135,7 +135,7 @@ Velocity Horizontal 0.16
 Velocity Vertical 0.16
 Velocity Mode Simple
 
-chat Toggles:
+chat &6Toggles:
 Velocity toggle true
 PingSpoof toggle true
 Fly toggle false
