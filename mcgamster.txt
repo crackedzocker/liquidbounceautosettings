@@ -163,3 +163,4 @@ Criticals toggle false
 LiquidWalk toggle true
 Safewalk toggle true
 chat &6Have fun
+chat &6Settings was made for SkyWars.
