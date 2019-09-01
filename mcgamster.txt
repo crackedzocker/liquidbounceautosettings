@@ -24,8 +24,8 @@ Fucker Swing true
 Fucker Rotations true
 Fucker Action Destroy
 Scaffold Mode Expand
-Scaffold MaxDelay 25
-Scaffold MinDelay 10
+Scaffold MaxDelay 0
+Scaffold MinDelay 0
 Scaffold AutoBlock true
 Scaffold StayAutoBlock true
 Scaffold Swing true
