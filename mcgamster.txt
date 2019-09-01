@@ -146,9 +146,9 @@ Killaura RandomCenter true
 Killaura FOV 180
 Killaura Mark true
 Killaura FakeSharp true
-Velocity Horizontal 0.4
-Velocity Vertical 0.4
-Velocity Mode AACPush
+Velocity Horizontal 0.16
+Velocity Vertical 0.16
+Velocity Mode Simple
 Velocity ReverseStrength 1.0
 Velocity Reverse2Strength 0.05
 Velocity AACPushXZReducer 2.0
