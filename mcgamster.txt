@@ -31,7 +31,7 @@ Scaffold StayAutoBlock true
 Scaffold Swing true
 Scaffold Search true
 Scaffold BlockToEagle 0
-Scaffold BlockToLenght 4
+Scaffold ExpandLength 4
 Scaffold Rotations true
 Scaffold ZitterMode Teleport
 Scaffold ZitterSpeed 0.10
