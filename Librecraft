@@ -423,6 +423,7 @@ Fucker toggle false
 PingSpoof toggle true
 Sneak toggle false
 Velocity toggle true
+AntiCactus toggle true
 Zoot toggle false
 Trigger toggle false
 Teams toggle false
