@@ -440,6 +440,7 @@ Fucker toggle false
 Fly toggle false
 Aimbot toggle false
 Highjump toggle false
+WaterSpeed toggle true
 chat &4Description
 chat &4NoFall doesnt Work on Librecraft.
 chat &4Speed and Step do not work together.
