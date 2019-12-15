@@ -433,6 +433,7 @@ LiquidChat toggle false
 NoSlow toggle true
 InventoryCleaner toggle true
 NoFall toggle false
+InventoryMove toggle true
 Regen toggle false
 WallClimb toggle false
 Fucker toggle false
