@@ -370,6 +370,11 @@ Tower TeleportNoMotion true
 Tower Counter true
 Trigger MaxCPS 12
 Trigger MinCPS 8
+Target Players true
+Target Mobs false
+Target Animals false
+Target Invisible true
+Target Dead true
 Velocity Horizontal 0.2
 Velocity Vertical 0.2
 Velocity Mode Simple
