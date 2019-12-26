@@ -185,8 +185,8 @@ Kick Mode Quit
 KillAura MaxCPS 7
 KillAura MinCPS 5
 KillAura HurtTime 7
-KillAura Range 5.5
-KillAura ThroughWallsRange 5.5
+KillAura Range 5
+KillAura ThroughWallsRange 4
 KillAura RangeSprintReducement 0.0
 KillAura Priority Direction
 KillAura TargetMode Switch
@@ -370,12 +370,12 @@ Tower TeleportNoMotion true
 Tower Counter true
 Trigger MaxCPS 12
 Trigger MinCPS 8
-Velocity Horizontal 0.0
-Velocity Vertical 0.0
+Velocity Horizontal 0.2
+Velocity Vertical 0.2
 Velocity Mode Simple
 Velocity ReverseStrength -1.0
 Velocity Reverse2Strength -1.0
-Velocity AACPushXZReducer 2.0
+Velocity AACPushXZReducer -1.0
 Velocity AACPushYReducer false
 WallClimb Mode Clip
 WallClimb ClipMode Fast
@@ -453,13 +453,17 @@ IceSpeed Toggle false
 LongJump Toggle false
 HighJump Toggle false
 WaterSpeed Toggle false
+LiquidChat toggle true
+AntiBot toggle true
 chat &6Descriptions: 
-chat &6The fly of NeruxVace goes on the server with a 6 tick. It also works with a 5-tick, but at your own risk, because the fly will take you to about 20 - 30 blocks, the 6-tick is unlimited.
+chat &You should keep the Fly at a 6-point tick. It will go between 30 - 35 blocks, then you will be dropped. But it still doesn't buzz you, even though you're going down.
 chat &6The scaffold does not flag.
 chat &6The TP hit works, but you should not use it too often, otherwise you will be banned.
 chat &6The ClickTP can be used well with the Fucker in BedWars. You teleport in front of the bed and the Fucker destroys the bed. But you get bent back in half a second. Don't worry, it doesn't banish Auto.
 chat &6The NoFall works without flags.
+chat &6Velocity flags sometimes, but does not banish auto.
 chat &6As soon as the AACNoSlow is used, the TP hit no longer passes. This is not set in the Config. You have to switch to NCP at Sword at NoSlow to make AACNoSlow work. I would not use it.
 chat &6The AACStep also goes through without problems. It goes 1.5 blocks.
-chat &6Die Config sollte nicht Autobannen ausser ihr benutzt den TP-Hit zu oft, dann könnte es sein, dass ihr gebannt wird.
-chat https://bit.ly/lbscpck
+chat &6Die Config should not autobannen unless you use the TP hit too often, then you might get banned.
+chat &6I have created a script pack for you. You can download it here. Downlaod: https://bit.ly/lbscpck
+chat &6Without the Script Pack you don't have things like AACStep (which goes up 1.5 blocks) or the TP-Hit or ClickTP.
