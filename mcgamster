@@ -142,11 +142,11 @@ Fly HypixelLatest-BoostDelay 475
 Fly HypixelLatest-BoostTimer 4.3
 Fly Mark true
 Fucker ID 26
-Fucker Instant false
+Fucker Instant true
 Fucker ThroughWalls Around
 Fucker Swing true
 Fucker Rotations true
-Fucker Surroundings true
+Fucker Surroundings false
 Fucker Action Destroy
 Fucker NoHit true
 GhostHand ID 54
@@ -455,6 +455,7 @@ HighJump Toggle false
 WaterSpeed Toggle false
 LiquidChat toggle true
 AntiBot toggle true
+Step Toggle false
 chat &6Descriptions: 
 chat &You should keep the Fly at a 6-point tick. It will go between 30 - 35 blocks, then you will be dropped. But it still doesn't buzz you, even though you're going down.
 chat &6The scaffold does not flag.
