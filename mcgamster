@@ -377,10 +377,10 @@ Target Invisible true
 Target Dead true
 Velocity Horizontal 0.0
 Velocity Vertical 0.0
-Velocity Mode Simple
+Velocity Mode AACPush
 Velocity ReverseStrength -1.0
 Velocity Reverse2Strength -1.0
-Velocity AACPushXZReducer -1.0
+Velocity AACPushXZReducer -0.5
 Velocity AACPushYReducer false
 WallClimb Mode Clip
 WallClimb ClipMode Fast
