@@ -254,7 +254,7 @@ Regen Speed 35
 Regen NoAir false
 ReverseStep Motion 1.0
 SafeWalk AirSafe false
-Scaffold Mode Normal
+Scaffold Mode Expand
 Scaffold MaxDelay 0
 Scaffold MinDelay 0
 Scaffold PlaceableDelay true
@@ -267,8 +267,8 @@ Scaffold PlaceTiming Post
 Scaffold Eagle false
 Scaffold EagleSilent false
 Scaffold BlocksToEagle 0
-Scaffold ExpandLength 1
-Scaffold Rotations false
+Scaffold ExpandLength 6
+Scaffold Rotations true
 Scaffold KeepRotation false
 Scaffold Zitter false
 Scaffold ZitterMode Teleport
@@ -322,7 +322,7 @@ SoulSpeed Mode Vanilla
 SoulSpeed VSpeed 0.2
 SoulSpeed Bobbing true
 SoulSpeed FastStop true
-Speed Mode AACLowHop3
+Speed Mode AACHop3.3.13
 Speed CustomSpeed 0.56
 Speed CustomY 0.4
 Speed CustomTimer 1.16
@@ -375,8 +375,8 @@ Target Mobs false
 Target Animals false
 Target Invisible true
 Target Dead true
-Velocity Horizontal 0.2
-Velocity Vertical 0.2
+Velocity Horizontal 0.0
+Velocity Vertical 0.0
 Velocity Mode Simple
 Velocity ReverseStrength -1.0
 Velocity Reverse2Strength -1.0
