@@ -245,7 +245,7 @@ Nuker ThroughWalls false
 Phase Mode AAC3.5.0
 PingSpoof MaxDelay 500
 PingSpoof MinDelay 350
-Reach CombatReach 300.0
+Reach CombatReach 5
 Reach BuildReach 5.0
 Regen Mode Spartan
 Regen Health 20
