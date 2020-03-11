@@ -180,10 +180,10 @@ CubeInsults Volume 2.0
 CubeInsults Binding NONE
 CubeNoFall ForceMovement true
 CubeNoFall FallDistance 4
-CubeNoFall Range 5
-CubeNoFall Delay 10
+CubeNoFall Range 4
+CubeNoFall Delay 5
 CubeNoFall AntiFire true
-CubeNoFall FireDelay 10
+CubeNoFall FireDelay 5
 CubeNoFall Binding NONE
 CubePlay DownloadConfig true
 CubePlay Â§4Â§lSettings: 
