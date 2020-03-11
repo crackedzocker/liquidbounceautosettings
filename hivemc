@@ -51,6 +51,15 @@ AutoSoup Health 15.0
 AutoSoup Delay 0
 AutoSoup OpenInv true
 AutoWeapon SpoofItem true
+BetterCriticals Mode AAC4Packet
+BetterCriticals PacketAirCrits true
+BetterCriticals PacketLessPackets true
+BetterCriticals PacketHurttime 2
+BetterCriticals PacketDelay 265
+BetterCriticals PacketTimerDelay 450
+BetterCriticals PacketTimer 0.33
+BetterCriticals PacketHopPacketHeight 0.15
+BetterCriticals PacketHopFirstMotion 0.149
 Blink Pulse true
 Blink PulseDelay 942
 BlockWalk Cobweb true
@@ -531,11 +540,13 @@ InventoryMove Toggle true
 ChestStealer Toggle true
 InventoryCleaner Toggle true
 PingSpoof Toggle true
-Criticals Toggle true
+Criticals Toggle false
 WaterSpeed Toggle true
+BetterCriticals Toggle true
 chat &4&lDescriptions: 
-chat &6Fly workâ€˜s.
+chat &6Fly works.
 chat &6CubeNoFall Works with Fly.
+chat &6BetterCriticals turn you towards the gener, that is completely normal. You can do some flags with the speed but you get much better hits.
 chat &5&lFor better cheating download my script pack:: https://bit.ly/3bZFyK0
 chat &5&lExtract the file, copy all scripts and put them into the %appdata%\.minecraft\LiquidBounce-1.8\scripts or into the %appdata%\.LiquidLauncher\gameDir\LiquidBounce-1.8\scripts folder. Depending on whether you use the Launcher or LB via mods.
 chat &5&lThis config was made for maximum Liquidbounce B68.
