@@ -139,7 +139,7 @@ CubeClipper Â§4Â§lSettings
 CubeClipper  Clip Down, Indicate
 CubeClipper NeededPackets 15
 CubeClipper FallingSpeed 1.0
-CubeClipper MaxUpDistance 2
+CubeClipper MaxUpDistance 5
 CubeClipper MaxDownDistance 10
 CubeClipper Binding NONE
 CubeCore LatestVersion 7.46
@@ -543,6 +543,8 @@ PingSpoof Toggle true
 Criticals Toggle false
 WaterSpeed Toggle true
 BetterCriticals Toggle true
+CubeClipper Toggle true
+
 chat &4&lDescriptions: 
 chat &6Fly works.
 chat &6If you feel like the game is running in SlowMotion, you need to turn off BetterCrtiticals and turn it on again, then it's fixed.
