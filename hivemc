@@ -488,7 +488,7 @@ Trigger MaxCPS 16
 Trigger MinCPS 14
 Velocity Horizontal 0.0
 Velocity Vertical 0.0
-Velocity Mode Simple
+Velocity Mode AACPush
 Velocity ReverseStrength 0.12
 Velocity Reverse2Strength 0.05
 Velocity AACPushXZReducer 3.0
