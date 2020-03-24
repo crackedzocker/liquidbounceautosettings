@@ -487,8 +487,8 @@ Tower Counter true
 Trigger MaxCPS 16
 Trigger MinCPS 14
 Velocity Horizontal 0.0
-Velocity Vertical 0.99
-Velocity Mode AACPush
+Velocity Vertical 0.0
+Velocity Mode Simple
 Velocity ReverseStrength 0.12
 Velocity Reverse2Strength 0.05
 Velocity AACPushXZReducer 3.0
@@ -545,8 +545,10 @@ WaterSpeed Toggle true
 BetterCriticals Toggle true
 chat &4&lDescriptions: 
 chat &6Fly works.
+chat &6If you feel like the game is running in SlowMotion, you need to turn off BetterCrtiticals and turn it on again, then it's fixed.
 chat &6CubeNoFall Works with Fly.
 chat &6BetterCriticals turn you towards the gener, that is completely normal. You can do some flags with the speed but you get much better hits.
 chat &5&lFor better cheating download my script pack: https://bit.ly/2Q6BJJn
 chat &5&lExtract the file, copy all scripts and put them into the %appdata%\.minecraft\LiquidBounce-1.8\scripts or into the %appdata%\.LiquidLauncher\gameDir\LiquidBounce-1.8\scripts folder. Depending on whether you use the Launcher or LB via mods.
 chat &5&lThis config was made for maximum Liquidbounce B68.
+chat &4&lSettings made by Crackedzocker
