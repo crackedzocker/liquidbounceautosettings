@@ -486,9 +486,24 @@ Tower TeleportNoMotion false
 Tower Counter true
 Trigger MaxCPS 16
 Trigger MinCPS 14
+TPHit Mode AAC3New
+TPHit DelayMode Dynamic
+TPHit CustomDelay 250.0
+TPHit WaitTicks 20
+TPHit UseNoXZMoveTimer false
+TPHit NoXZMoveTimer 0.81
+TPHit AntiKick false
+TPHit ShowTargetHUD true
+TPHit X 17
+TPHit Y 151
+TPHit Scale 1.0
+TPHit BGAlpha 225
+TPHit ShadowText true
+TPHit FontNumber 0
+TPHit Selected font Roboto Medium
 Velocity Horizontal 0.0
 Velocity Vertical 0.0
-Velocity Mode AACPush
+Velocity Mode AACZero
 Velocity ReverseStrength 0.12
 Velocity Reverse2Strength 0.05
 Velocity AACPushXZReducer 3.0
@@ -547,10 +562,13 @@ CubeClipper Toggle true
 
 chat &4&lDescriptions: 
 chat &6Fly works.
+chat &6AACZero works, but it flags around a bit. But it doesn't banish and shouldn't kick.
+chat &6The TP hit works, but you may only use it a maximum of 3 times in a row, otherwise you will be kicked.
 chat &6If you feel like the game is running in SlowMotion, you need to turn off BetterCrtiticals and turn it on again, then it's fixed.
 chat &6CubeNoFall Works with Fly.
 chat &6BetterCriticals turn you towards the gener, that is completely normal. You can do some flags with the speed but you get much better hits.
-chat &5&lFor better cheating download my script pack: https://bit.ly/2Q6BJJn
+chat &5&lFor better cheating download my script pack: https://bit.ly/2Q6BJJn .
 chat &5&lExtract the file, copy all scripts and put them into the %appdata%\.minecraft\LiquidBounce-1.8\scripts or into the %appdata%\.LiquidLauncher\gameDir\LiquidBounce-1.8\scripts folder. Depending on whether you use the Launcher or LB via mods.
 chat &5&lThis config was made for maximum Liquidbounce B68.
+chat &5&lIf you can't find the Liquidbounce B68 version anymore, you can download it here: --> https://bit.ly/39YV0Ur .
 chat &4&lSettings made by Crackedzocker
