@@ -373,12 +373,11 @@ Zoot BadEffects true
 Zoot Fire true
 Zoot NoAir true
 chat &4&lBinds: 
-Toggle InventoryMove true
-Toggle Velocity true
-Toggle AutoArmor true
-Toggle AntiBllind true
-Toggle Sprint true
-Toggle AntiBot true
-Toggle AutoArmor true
+InventoryMove Toggle true
+Velocity Toggle true
+AutoArmor Toggle true
+AntiBllind Toggle true
+Sprint Toggle true
+Toggle AntiBot AutoArmor true
 chat &4&lDescripton: 
 chat &2&lMini Autosettings scheeesch
