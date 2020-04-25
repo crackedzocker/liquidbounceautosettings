@@ -165,10 +165,10 @@ HitBox Size 0.4
 IceSpeed Mode Spartan
 Ignite Lighter true
 Ignite Lava true
-InventoryCleaner MaxDelay 287
-InventoryCleaner MinDelay 90
-InventoryCleaner InvOpen true
-InventoryCleaner SimulateInventory true
+InventoryCleaner MaxDelay 30
+InventoryCleaner MinDelay 40
+InventoryCleaner InvOpen false
+InventoryCleaner SimulateInventory false
 InventoryCleaner NoMove false
 InventoryCleaner Hotbar true
 InventoryCleaner RandomSlot false
