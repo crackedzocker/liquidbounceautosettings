@@ -26,8 +26,8 @@ AntiBot DuplicateInTab true
 AtAllProvider MaxDelay 1000
 AtAllProvider MinDelay 500
 AtAllProvider Retry false
-AutoArmor MaxDelay 300
-AutoArmor MinDelay 150
+AutoArmor MaxDelay 50
+AutoArmor MinDelay 40
 AutoArmor InvOpen false
 AutoArmor SimulateInventory true
 AutoArmor NoMove false
