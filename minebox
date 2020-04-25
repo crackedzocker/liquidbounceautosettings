@@ -26,8 +26,8 @@ AntiBot DuplicateInTab true
 AtAllProvider MaxDelay 1000
 AtAllProvider MinDelay 500
 AtAllProvider Retry false
-AutoArmor MaxDelay 70
-AutoArmor MinDelay 60
+AutoArmor MaxDelay 300
+AutoArmor MinDelay 150
 AutoArmor InvOpen false
 AutoArmor SimulateInventory true
 AutoArmor NoMove false
@@ -119,10 +119,6 @@ ConsoleSpammer Delay 0
 Criticals Mode NoGround
 Criticals Delay 0
 Criticals HurtTime 10
-CubeNoFall FallDistance 4
-CubeNoFall Range 4
-CubeNoFall Delay 5
-CubeNoFall TopCenter
 Damage Mode AAC
 Damage Damage 1
 Derp Headless true
@@ -137,19 +133,19 @@ FastStairs Mode NCP
 FastStairs LongJump false
 FastUse Mode CustomDelay
 FastUse Delay 0
-Fly Mode AAC3.3.12
-Fly VanillaSpeed 5.0
-Fly VanillaKickBypass true
-Fly NCPMotion 0.16
+Fly Mode HAC
+Fly VanillaSpeed 1.0
+Fly VanillaKickBypass false
+Fly NCPMotion 0.0
 Fly AAC1.9.10-Speed 0.3
 Fly AAC3.0.5-Fast true
-Fly AAC3.3.12-Motion 6.99
-Fly AAC3.3.13-Motion 5.43
-Fly Hypixel-Boost true
-Fly Hypixel-BoostDelay 2000
-Fly Hypixel-BoostTimer 1.24
-Fly MineplexSpeed 5.05
-Fly NeruxVace-Ticks 8
+Fly AAC3.3.12-Motion 7.6
+Fly AAC3.3.13-Motion 8.44
+Fly Hypixel-Boost false
+Fly Hypixel-BoostDelay 750
+Fly Hypixel-BoostTimer 5.0
+Fly MineplexSpeed 1.0
+Fly NeruxVace-Ticks 6
 Fly Mark true
 Fucker Block 26
 Fucker ThroughWalls None
@@ -169,9 +165,9 @@ HitBox Size 0.4
 IceSpeed Mode Spartan
 Ignite Lighter true
 Ignite Lava true
-InventoryCleaner MaxDelay 40
-InventoryCleaner MinDelay 30
-InventoryCleaner InvOpen false
+InventoryCleaner MaxDelay 287
+InventoryCleaner MinDelay 90
+InventoryCleaner InvOpen true
 InventoryCleaner SimulateInventory true
 InventoryCleaner NoMove false
 InventoryCleaner Hotbar true
@@ -195,13 +191,13 @@ ItemTeleport ResetAfterTP false
 ItemTeleport Button Middle
 KeepAlive Mode /heal
 Kick Mode Quit
-KillAura MaxCPS 16
-KillAura MinCPS 12
+KillAura MaxCPS 12
+KillAura MinCPS 9
 KillAura HurtTime 10
-KillAura Range 5.00
+KillAura Range 4.83
 KillAura ThroughWallsRange 0.0
-KillAura RangeSprintReducement 0.0
-KillAura Priority Health
+KillAura RangeSprintReducement 0.4
+KillAura Priority Distance
 KillAura TargetMode Switch
 KillAura Swing true
 KillAura KeepSprint true
@@ -213,20 +209,20 @@ KillAura RayCast true
 KillAura RayCastIgnored true
 KillAura LivingRayCast true
 KillAura AAC true
-KillAura MaxTurnSpeed 40.0
-KillAura MinTurnSpeed 30.0
+KillAura MaxTurnSpeed 50.0
+KillAura MinTurnSpeed 40.0
 KillAura SilentRotation true
 KillAura RotationStrafe false
-KillAura RandomCenter false
-KillAura Outborder false
+KillAura RandomCenter true
+KillAura Outborder true
 KillAura FOV 180.0
 KillAura Predict true
-KillAura MaxPredictSize 2.5
-KillAura MinPredictSize 2.0
-KillAura FailRate 2.0
+KillAura MaxPredictSize 1.0
+KillAura MinPredictSize 1.0
+KillAura FailRate 0.0
 KillAura FakeSwing true
 KillAura NoInvAttack false
-KillAura NoInvDelay 0
+KillAura NoInvDelay 200
 KillAura LimitedMultiTargets 0
 KillAura Mark false
 KillAura FakeSharp false
@@ -237,7 +233,7 @@ LiquidWalk AACFlyMotion 0.5
 LongJump Mode AACv3
 LongJump NCPBoost 3.0
 LongJump AutoJump false
-NoFall Mode AAC3.3.11
+NoFall Mode SpoofGround
 NoPitchLimit ServerSide true
 NoRotateSet Confirm true
 NoRotateSet ConfirmIllegalRotation true
@@ -268,8 +264,8 @@ Regen NoAir true
 ReverseStep Motion 1.0
 SafeWalk AirSafe false
 Scaffold Mode Normal
-Scaffold MaxDelay 2
-Scaffold MinDelay 1
+Scaffold MaxDelay 0
+Scaffold MinDelay 0
 Scaffold PlaceableDelay false
 Scaffold AutoBlock true
 Scaffold StayAutoBlock true
@@ -307,26 +303,26 @@ SlimeJump Motion 1.0
 SlimeJump Mode Add
 Sneak Mode Vanilla
 Sneak StopMove false
-Speed Mode AACLowHop3
-Speed CustomSpeed 0.82
-Speed CustomY 0.26
-Speed CustomTimer 0.17
+Speed Mode AACHop3.5.0
+Speed CustomSpeed 0.2
+Speed CustomY 0.4
+Speed CustomTimer 1.16
 Speed CustomStrafe false
 Speed CustomResetXZ true
-Speed CustomResetY false
-Speed AAC-PortLength 2.99
-Speed AACGround-Timer 2.42
-Speed CubeCraft-PortLength 1.0
+Speed CustomResetY true
+Speed AAC-PortLength 1.0
+Speed AACGround-Timer 1.1
+Speed CubeCraft-PortLength 2.322
 Speed MineplexGround-Speed 0.1
 Sprint AllDirections false
-Sprint Blindness false
-Sprint Food false
+Sprint Blindness true
+Sprint Food true
 Sprint CheckServerSide true
 Sprint CheckServerSideOnlyGround false
 Step Mode AAC
-Step Height 1.5
+Step Height 1.0
 Step JumpHeight 0.42
-Step Delay 200
+Step Delay 120
 SuperKnockback HurtTime 10
 TNTBlock Fuse 10
 TNTBlock Range 9.0
@@ -372,12 +368,24 @@ WaterSpeed Speed 1.1
 Zoot BadEffects true
 Zoot Fire true
 Zoot NoAir true
-chat &4&lBinds: 
+chat &4&lToggles: 
 InventoryMove Toggle true
 Velocity Toggle true
 AutoArmor Toggle true
 AntiBllind Toggle true
 Sprint Toggle true
-Toggle AntiBot AutoArmor true
-chat &4&lDescripton: 
-chat &2&lMini Autosettings scheeesch
+AntiBot Toggle true
+NoSlow Toggle true
+Step Toggle true
+NoFall Toggle true
+chat &4&lDescription: 
+chat &6--------------------------------------------------------------------------------------------------------
+chat &5In this config I took some modules from the config of Ghost, but also own modules.
+chat &6--------------------------------------------------------------------------------------------------------
+chat 
+chat 
+chat 
+chat 
+chat 
+chat 
+chat &4&lSettings made by Crackedzocker
