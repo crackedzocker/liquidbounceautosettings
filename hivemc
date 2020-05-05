@@ -503,10 +503,10 @@ TPHit FontNumber 0
 TPHit Selected font Roboto Medium
 Velocity Horizontal 0.0
 Velocity Vertical 0.0
-Velocity Mode AACPush
+Velocity Mode AACZero
 Velocity ReverseStrength 0.12
 Velocity Reverse2Strength 0.05
-Velocity AACPushXZReducer 2.25
+Velocity AACPushXZReducer 3.00
 Velocity AACPushYReducer false
 WallClimb Mode AAC3.3.12
 WallClimb ClipMode Fast
