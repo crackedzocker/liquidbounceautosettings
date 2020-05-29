@@ -121,10 +121,6 @@ Clip Horizontal 0.0
 Clip Vertical 5.0
 ConsoleSpammer Mode Payload
 ConsoleSpammer Delay 0
-Crash Are you sure you want to crash the game? Click the boolean below.
-Crash Yes false
-Crash Are you REALLY sure? Click below if you are
-Crash Confirm (Crashes the game!) false
 Criticals Mode HypixelPacket
 Criticals Delay 66
 Criticals HurtTime 10
@@ -308,10 +304,6 @@ KillAura NoInvDelay 200
 KillAura LimitedMultiTargets 0
 KillAura Mark false
 KillAura FakeSharp false
-LagBackCheck Speed true
-LagBackCheck Fly true
-LagBackCheck LongJump true
-LagBackCheck Step true
 LiquidChat JWT false
 LiquidWalk Mode Spartan
 LiquidWalk NoJump true
@@ -319,25 +311,6 @@ LiquidWalk AACFlyMotion 0.5
 LongJump Mode AACv3
 LongJump NCPBoost 3.0
 LongJump AutoJump false
-ModulesManager Â§4Â§lSettings: 
-ModulesManager  Motion, Toggle Modules, Check Server, Show Stats, Show Speeds
-ModulesManager Â§2Â§lOnLoadEnable Settings: 
-ModulesManager Â§aOnLoadEnable CubeFastLadder, CubeAutoBlock, CubePlay, CubeClipper, CubeInsults, CubePlay, CubeNoFall, CubeFastUse
-ModulesManager Â§2Â§lOnLoadExecute Settings: 
-ModulesManager Â§aOnLoadExecute 
-ModulesManager Â§2Â§lOnLoadDisable Settings: 
-ModulesManager Â§aOnLoadDisable 
-ModulesManager Â§2Â§lAutoEnable Settings: 
-ModulesManager Â§aAutoEnable KillAura, ChestStealer, ChestAura, InventoryCleaner
-ModulesManager Â§2Â§lAutoDisable Settings: 
-ModulesManager Â§aAutoDisable CubeSpeed, CubeFloat, KillAura, ChestStealer, ChestAura, InventoryCleaner
-ModulesManager Â§2Â§lAutoDisableInGame Settings: 
-ModulesManager Â§aAutoDisableInGame ChestAura
-ModulesManager Â§2Â§lRoundStartMessage Settings: 
-ModulesManager Â§aMessage Good luck, have fun!; Hello, how are you everyone today?; Hello, it's my birthday today!; I love CubeCraft!; hackers are everywhere; hi; hello; glhf
-ModulesManager Color 5
-NCPHop Swiftness true
-NCPHop TimerHop true
 NoFall Mode LAAC
 NoPitchLimit ServerSide true
 NoRotateSet Confirm true
@@ -407,36 +380,6 @@ SlimeJump Motion 1.0
 SlimeJump Mode Add
 Sneak Mode Legit
 Sneak StopMove false
-SoulFly Mode Float
-SoulFly VanillaSpeed 1.0
-SoulFly FloatTech false
-SoulFly FloatY 10
-SoulFly FastMotionSpeed 1.1
-SoulFly GlideMotion 0.01
-SoulFly GlideSpeedAmount 1.05
-SoulFly FakeFallMotion 0.01
-SoulFly FakeFallTime 4
-SoulFly BoostAmount 0.93
-SoulFly DepreciationMethod Logarithmic
-SoulFly BoostDepreciation 0.95
-SoulFly BoostDepreciationRate 6
-SoulFly Wait 5
-SoulFly Bob true
-SoulFly GroundSpoof true
-SoulFly FastStop false
-SoulFly HurtOnEnable false
-SoulFly Timer false
-SoulFly Timer 1.0
-SoulFly SpeedLimit false
-SoulFly SpeedLimitMax 8.0
-SoulNoFall Mode Normal
-SoulPimp Bloing false
-SoulPimp TimeMachine false
-SoulPimp TimeAmount 50
-SoulSpeed Mode ACRBHop
-SoulSpeed VSpeed 0.2
-SoulSpeed Bobbing true
-SoulSpeed FastStop true
 Speed Mode AAC5BHop
 Speed CustomSpeed 0.2
 Speed CustomY 0.4
@@ -456,7 +399,6 @@ Sprint CheckServerSideOnlyGround false
 Step Mode AAC3.3.4
 Step Height 1.0
 Step Delay 120
-SuperKnockback HurtTime 10
 TNTBlock Fuse 10
 TNTBlock Range 9.0
 TNTBlock AutoSword true
@@ -512,15 +454,6 @@ WallClimb Mode AAC3.3.12
 WallClimb ClipMode Fast
 WallClimb CheckerClimbMotion 0.0
 WaterSpeed Speed 1.17
-ZeroAim Mode AntiAim
-ZeroAim Pitch true
-ZeroAim PitchAmount 20
-ZeroAim Yaw true
-ZeroAim YawAmount 180
-ZeroAim ShakeAmount 5
-ZeroAim SpinAmount 180
-ZeroAim EntityModeRange 6
-ZeroAim PreventHeadless false
 Zoot BadEffects true
 Zoot Fire true
 Zoot NoAir false
