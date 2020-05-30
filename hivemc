@@ -497,7 +497,7 @@ AutoTool Toggle true
 chat &4&lDescriptions: 
 chat &6&l=====================================================
 chat &6Fly works.
-chat &6AACZero works, but it flags around a bit. But it doesn't banish and shouldn't kick.
+chat &6AACPush works, AACZero works too, but you can get flägt.
 chat &6The TP hit works, but you may only use it a maximum of 3 times in a row, otherwise you will be kicked.
 chat &6If you feel like the game is running in SlowMotion, you need to turn off BetterCrtiticals and turn it on again, then it's fixed.
 chat &6CubeNoFall Works with Fly.
