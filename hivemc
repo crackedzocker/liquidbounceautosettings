@@ -330,8 +330,8 @@ NoWeb Mode AAC
 Nuker Radius 5.2
 Nuker ThroughWalls false
 Phase Mode AAC3.5.0
-PingSpoof MaxDelay 932
-PingSpoof MinDelay 762
+PingSpoof MaxDelay 330
+PingSpoof MinDelay 220
 Reach CombatReach 300.0
 Reach BuildReach 5.0
 Regen Mode Spartan
