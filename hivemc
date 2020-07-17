@@ -51,15 +51,6 @@ AutoSoup Health 15.0
 AutoSoup Delay 0
 AutoSoup OpenInv true
 AutoWeapon SpoofItem true
-BetterCriticals Mode AAC4Packet
-BetterCriticals PacketAirCrits true
-BetterCriticals PacketLessPackets true
-BetterCriticals PacketHurttime 2
-BetterCriticals PacketDelay 265
-BetterCriticals PacketTimerDelay 450
-BetterCriticals PacketTimer 0.33
-BetterCriticals PacketHopPacketHeight 0.15
-BetterCriticals PacketHopFirstMotion 0.149
 Blink Pulse true
 Blink PulseDelay 942
 BlockWalk Cobweb true
@@ -207,7 +198,7 @@ Derp Spinny false
 Derp Increment 1.0
 FastBow Packets 20
 FastBreak BreakDamage 0.56
-FastClimb Mode AACv3
+FastClimb Mode LAAC
 FastClimb NormalSpeed 0.28
 FastPlace Speed 2
 FastStairs Mode LAAC
@@ -272,7 +263,7 @@ Kick Mode Quit
 KillAura MaxCPS 12
 KillAura MinCPS 8
 KillAura HurtTime 10
-KillAura Range 5.75
+KillAura Range 6.00
 KillAura ThroughWallsRange 4.0
 KillAura RangeSprintReducement 0.4
 KillAura Priority Distance
@@ -448,7 +439,7 @@ Velocity Vertical 0.0
 Velocity Mode AACPush
 Velocity ReverseStrength 0.12
 Velocity Reverse2Strength 0.05
-Velocity AACPushXZReducer 1.00
+Velocity AACPushXZReducer -1.00
 Velocity AACPushYReducer false
 WallClimb Mode AAC3.3.12
 WallClimb ClipMode Fast
