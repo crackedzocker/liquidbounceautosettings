@@ -490,7 +490,7 @@ InventoryCleaner Toggle true
 PingSpoof Toggle true
 Criticals Toggle false
 WaterSpeed Toggle true
-BetterCriticals Toggle true
+BetterCriticals Toggle false
 CubeClipper Toggle true
 AutoTool Toggle true
 
